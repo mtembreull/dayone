@@ -25,7 +25,13 @@ section {
     color: rgb(0,0,50);
 }
 
-#lily {
+#lily, header {
     background-color: rgba(0,0,50);
     color: white;
+}
+
+header a {
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
