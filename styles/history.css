@@ -21,7 +21,7 @@ section {
 }
 
 .biscuit {
-    background-color: azure;
+    background-color: whitesmoke;
     color: rgb(0,0,50);
 }
 
@@ -29,7 +29,7 @@ section {
     background-color: rgba(0,0,50);
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 10px;
 }
 
 header a {
