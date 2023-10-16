@@ -19,6 +19,7 @@ section {
     margin: 10px;
     padding: 10px;
     border-radius: 0px 0px 30px 30px;
+    box-shadow: lightgray 5px 10px;
 }
 
 .biscuit {
