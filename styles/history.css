@@ -15,4 +15,5 @@ main {
 section {
     width: 300px;
     background-color: rgb(0,0,50);
+    color: white;
 }
