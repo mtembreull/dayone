@@ -19,3 +19,8 @@ section {
     margin: 10px;
     padding: 10px;
 }
+
+.buscuit {
+    background-color: azure;
+    color: rgb(0,0,50);
+}
