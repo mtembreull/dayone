@@ -38,6 +38,10 @@ header a {
     color: white;
     text-align: center;
     font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border: solid white 1px;
+    margin: 0px;
 }
 
 h1 {
