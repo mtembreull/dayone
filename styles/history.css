@@ -7,10 +7,11 @@ body {
 
 main {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: 10px auto;
 }
 
 section {
-    width: 32%;
+    width: 30%;
 }
