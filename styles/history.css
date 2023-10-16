@@ -29,6 +29,7 @@ section {
     background-color: rgba(0,0,50);
     color: white;
     text-align: center;
+    padding: 25px;
 }
 
 header a {
