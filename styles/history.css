@@ -28,6 +28,7 @@ section {
 #lily, header {
     background-color: rgba(0,0,50);
     color: white;
+    text-align: center;
 }
 
 header a {
