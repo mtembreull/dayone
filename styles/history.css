@@ -24,3 +24,8 @@ section {
     background-color: azure;
     color: rgb(0,0,50);
 }
+
+#lily {
+    background-color: rgba(0,0,50);
+    color: white;
+}
