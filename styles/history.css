@@ -18,6 +18,7 @@ section {
     color: white;
     margin: 10px;
     padding: 10px;
+    border-radius: 20px, 8px, 30px, 0px;
 }
 
 .biscuit {
