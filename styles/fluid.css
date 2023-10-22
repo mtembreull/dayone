@@ -34,3 +34,12 @@ body {
 .rem {
     background-image:url(/images/fluid-2.jpg);
 }
+.percent {
+    background-image:url(/images/fluid-3.jpg);
+}
+.box {
+    background-image:url(/images/fluid-4.jpg);
+}
+.vw {
+    background-image:url(/images/fluid-5.jpg);
+}
