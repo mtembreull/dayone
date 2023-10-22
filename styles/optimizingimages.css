@@ -27,6 +27,10 @@ h1 {
     font-family: 'Tilt Neon', sans-serif;
     font-size:3.5em;
 }
+/* nav {
+     display: flex;
+     flex-wrap: wrap;
+} */
 nav p {
     display: flex;
     flex-grow: 1;
