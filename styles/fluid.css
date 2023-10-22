@@ -26,3 +26,11 @@ body {
     background-color:black;
     color:white;
 }
+
+/* individual class for section background images */
+.em {
+    background-image:url(/images/fluid-1.jpg);
+}
+.rem {
+    background-image:url(/images/fluid-2.jpg);
+}
