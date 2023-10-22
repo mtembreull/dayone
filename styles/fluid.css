@@ -29,17 +29,17 @@ body {
 
 /* individual class for section background images */
 .em {
-    background-image:url(/images/fluid-1.jpg)
+    background-image:url(../images/fluid-1.jpg)
 }
 .rem {
-    background-image:url(/images/fluid-2.jpg)
+    background-image:url(../images/fluid-2.jpg)
 }
 .percent {
-    background-image:url(/images/fluid-3.jpg)
+    background-image:url(../images/fluid-3.jpg)
 }
 .box {
-    background-image:url(/images/fluid-4.jpg)
+    background-image:url(../images/fluid-4.jpg)
 }
 .vw {
-    background-image:url(/images/fluid-5.jpg)
+    background-image:url(../images/fluid-5.jpg)
 }
