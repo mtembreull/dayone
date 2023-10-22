@@ -6,3 +6,23 @@ body, main, article, section, header, footer {
     box-sizing: border-box;
     }
 
+nav a {
+    flex-grow:1;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    border:white 2px solid;
+    padding:5px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+body {
+    padding:100px;
+    font-size:16px;
+    background-color:black;
+    color:white;
+}
