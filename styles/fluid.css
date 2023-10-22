@@ -35,23 +35,23 @@ section {
 
 /* individual class for section background images */
 .em {
-    background-image:url(../images/fluid-7.jpg)
+    background-image:url(../images/fluid-7.jpg);
     border:solid darkorange 1em;
 }
 .rem {
-    background-image:url(../images/fluid-2.jpg)
+    background-image:url(../images/fluid-2.jpg);
 }
 .percent {
-    background-image:url(../images/fluid-3.jpg)
+    background-image:url(../images/fluid-3.jpg);
 }
 .box {
-    background-image:url(../images/fluid-4.jpg)
+    background-image:url(../images/fluid-4.jpg);
 }
 .vw {
-    background-image:url(../images/fluid-5.jpg)
+    background-image:url(../images/fluid-5.jpg);
 }
 .hero {
-    background-image:url(../images/fluid-1.jpg)
+    background-image:url(../images/fluid-1.jpg);
 }
 .hero p {
     width:50%;
