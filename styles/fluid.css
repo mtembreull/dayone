@@ -26,10 +26,15 @@ body {
     background-color:black;
     color:white;
 }
+section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* individual class for section background images */
 .em {
-    background-image:url(../images/fluid-1.jpg)
+    background-image:url(../images/fluid-7.jpg)
 }
 .rem {
     background-image:url(../images/fluid-2.jpg)
@@ -42,4 +47,7 @@ body {
 }
 .vw {
     background-image:url(../images/fluid-5.jpg)
+}
+.hero {
+    background-image:url(../images/fluid-1.jpg)
 }
