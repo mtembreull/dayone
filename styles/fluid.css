@@ -30,12 +30,13 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding: 5px;
 }
 
 /* individual class for section background images */
 .em {
     background-image:url(../images/fluid-7.jpg)
+    border:solid darkorange 1em;
 }
 .rem {
     background-image:url(../images/fluid-2.jpg)
@@ -51,4 +52,7 @@ section {
 }
 .hero {
     background-image:url(../images/fluid-1.jpg)
+}
+.hero p {
+    width:50%;
 }
