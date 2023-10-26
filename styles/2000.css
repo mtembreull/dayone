@@ -2,6 +2,8 @@
 /* CSS Document */
 
 @media screen and (min-width:1282px) and (max-width:2000px) {
-    background-color:red;
-    color:black;
+    body {
+        background-color:red;
+        color:black;
+    }
 }
