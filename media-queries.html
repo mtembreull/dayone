@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Colors</title>
         <style>
-            @media screen and (max-width:485px) {
+            /*portrait tablets or landscpe phones*/
+            @media screen and (max-width:641px) {
+                body {
+                    background-color:green;
+                    color:purple;
+                }
+                h1 {
+                    font-size: 2em;
+                }
+                p {
+                    font-size: 1em;
+                }
+            }
+            
             /*portrait e-readers (Nook r Kindle), smaller tablets and phones*/
+            @media screen and (max-width:485px) {
                 body {
                     background-color: yellow;
                     color:black;
