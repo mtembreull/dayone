@@ -1,10 +1,14 @@
 :root {
-    --green:#;
-    --white:#ffffff
+    --green:#074817;
+    --white:#ffffff;
 }
 body, header, main, footer, section, article, aside {
     margin:0px;
     padding:0px;
     box-sizing: border-box;
     font-size: 16px;
+}
+main {
+    display:grid;
+    grid-template-columns: auto auto auto;
 }
