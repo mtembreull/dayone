@@ -9,6 +9,7 @@ body, header, main, footer, section, article, aside {
     font-size: 16px;
 }
 main {
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto auto;
+    background-color: lightgray;
 }
