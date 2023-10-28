@@ -28,6 +28,19 @@ main section {
     grid-column-start: 1;
     grid-column-end: 2;
 }
+.pic6, .pic2, .pic4 {
+    background-image: url(../images/sj-039.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+}
+.pic2 {
+    background-image: url(../images/sj-031.jpg);
+}
+.pic4 {
+    background-image: url(../images/sj-011.jpg);
+}
 .item7 {
     grid-column-start: 2;
     grid-column-end: 4;
