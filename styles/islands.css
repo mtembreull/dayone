@@ -13,7 +13,7 @@ main {
     grid-template-columns: auto auto auto;
     background-color: lightgray;
 }
-mainsection {
+main section {
     border: solid white 1px;
     text-align: center;
     padding:20px;
