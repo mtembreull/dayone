@@ -24,6 +24,10 @@ main section {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 .item7 {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -78,5 +82,9 @@ main section {
     background-image: url(../images/sj-068.jpg);
 }
 .item7 {
-    background-image: url(../images/sj-029.jpg);
+    background-image: url(../images/sj-022.jpg);
 }
+.item2, .item4, .item6 {
+    background-image: none;
+}
+
