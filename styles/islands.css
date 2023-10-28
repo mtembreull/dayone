@@ -1,6 +1,7 @@
 :root {
     --green:#074817;
     --white:#ffffff;
+    font-family: 'Raleway', sans-serif;
 }
 body, header, main, footer, section, article, aside {
     margin:0px;
@@ -27,7 +28,12 @@ main section {
     grid-column-start: 2;
     grid-column-end: 4;
 }
-.item8, .item9, .item10, .hero-orcas {
+.item8, .item9, .hero-orcas {
     grid-column-start: 1;
     grid-column-end: 4;
+}
+/* styling elements */
+header {
+    background-color: var(--white);
+    text-align: center;
 }
