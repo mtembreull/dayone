@@ -18,3 +18,16 @@ main section {
     text-align: center;
     padding:20px;
 }
+/* the following classes will govern the sections and make them work within the grid */
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item8, .item9, .item10, .hero-orcas {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
