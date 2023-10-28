@@ -8,7 +8,7 @@ body, header, main, footer, section, article, aside {
     box-sizing: border-box;
     font-size: 16px;
 }
-main {
+main, header, nav ul, footer {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: lightgray;
