@@ -11,7 +11,7 @@ body, header, main, footer, section, article, aside {
 }
 main, header, nav ul, footer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
     background-color: lightgray;
 }
 main section {
