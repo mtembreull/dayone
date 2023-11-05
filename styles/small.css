@@ -7,22 +7,75 @@ body {
     padding:0;
     color:#344e5f;
 }
+
 header, section, footer, aside, article, figure {
     display:block;    
 }
+
 .container {
     width:100%;
     background-color:white;
     margin:0 auto;    
 }
+
 header {
     box-sizing: border-box;
     color:#44a5b5;
     padding-top:8em;padding-left:0;
 }
+
 .content {
     box-sizing:border-box;
     padding-left:.8em;
     width:100%;
     float:none;
+}
+
+nav ul {
+    text-align:center;
+    list-style:none;
+    background-color:#44a5b5;
+    margin-bottom:1em;
+    padding:0;
+}
+
+nav li {
+    display:block;
+}
+
+nav a, nav a:link, nav a:visited {
+    margin:auto;
+    padding:.7em;
+    display:block;
+    width:100%;
+    text-decoration:none;
+    background-color:#44a5b5;
+    color:white;
+    border:1px solid white;
+}
+
+nav a:hover {
+    background-color:#344e5f;
+    color:white;
+}
+
+figure {
+    margin-left:0;
+}
+
+figcaption {
+    font-size: .7em;
+}
+
+ul, ol, dl {
+    padding:0;
+    margin:0;
+}
+
+h1, h2, h3, h4, p {
+    box-sizing: border-box;
+    margin:0;
+/* padding-right:.9em; */
+/* padding-left:.9em; */
+    padding:0 .9em;
 }
