@@ -111,10 +111,12 @@ footer p {
 }
 
 h1 {
-    font-size:2em;
+    font-size:2.5em;
+    padding-left:1em;
 }
 
 h1, h2, h3 {
+    padding:0;
     padding-left:.4em;
     font-family: 'Special Elite', cursive;
 }
