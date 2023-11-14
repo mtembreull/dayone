@@ -81,7 +81,7 @@ canvas {
 }
 
 @media screen and (min-width: 640px) {
-  .quarters {width:23%;}
+  .quarters {width:21.5%;}
   .grid-1     { width: 13.636363636364%; }
   .grid-2     { width: 30.30303030303%; }
   .grid-3,
@@ -177,4 +177,15 @@ code {
   padding: 0.5em 1em;
   margin-bottom: 1em;
   text-align: center;
+}
+
+h1 {
+  font-size:2em;
+  color:darkblue
+}
+
+.poem {
+  background-color: lightblue;
+  padding:5px;
+  box-sizing: border-box;
 }
