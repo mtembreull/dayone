@@ -49,11 +49,11 @@ canvas {
   clear: both;
 }
 
-@media screen and (min-width: 480px) {
+/*@media screen and (min-width: 480px) {*/
   .container {
     width: 98%;
   }
-
+  .quarters,
   .grid-1,
   .grid-2,
   .grid-3,
@@ -81,6 +81,7 @@ canvas {
 }
 
 @media screen and (min-width: 640px) {
+  .quarters {width:23%;}
   .grid-1     { width: 13.636363636364%; }
   .grid-2     { width: 30.30303030303%; }
   .grid-3,
@@ -176,8 +177,4 @@ code {
   padding: 0.5em 1em;
   margin-bottom: 1em;
   text-align: center;
-}
-
-.grid-2 p {
-  text-align: left;
 }
