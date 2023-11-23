@@ -17,12 +17,6 @@ main {
     "bottom1 bottom1 bottom2"
 }
 
-logo1 {
-    height: 100px;
-    width: auto;
-    margin: 10px auto;
-}
-
 .item1 {
     grid-area: first;
     height: 100%;
