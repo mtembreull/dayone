@@ -17,10 +17,16 @@ main {
     "bottom1 bottom1 bottom2"
 }
 
+logo1 {
+    height: 100px;
+    width: auto;
+    margin: 10px auto;
+}
+
 .item1 {
     grid-area: first;
     height: 100%;
-    background-image: url(../images/sj-062.jpg);
+    background-image: url(../images/sj-063.jpg);
 }
 
 .item2 {
@@ -28,7 +34,7 @@ main {
 }
 
 .pic4 {
-    background-image: url(../images/sj-57.jpg);
+    background-image: url(../images/sj-057.jpg);
 }
 
 .pic2 {
