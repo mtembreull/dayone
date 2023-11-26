@@ -1,3 +1,8 @@
+
+
+/*media querie for medium and large devices*/
+@media screen and (min-width: 580px) {
+     
 body {
      background-image: url(../images/forest.jpg);
      background-size: cover;
