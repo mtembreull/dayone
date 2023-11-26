@@ -1,6 +1,6 @@
 
 @media screen and (max-width:580) {
-    body {
+    body nav, nav ul, p  {
         width:90%;
         padding:10px;
         margin:auto;
