@@ -1,0 +1,11 @@
+
+@media screen and (max-width:580) {
+    body {
+        width:90%;
+        padding:10px;
+        margin:auto;
+        display:block;
+        background-color: red;
+        color:black;
+    }
+}
