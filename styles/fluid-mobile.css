@@ -1,20 +1,21 @@
 
 @media screen and (max-width:580) {
-    nav, main, article, main ul, header, nav ul {
+    nav, main, article, main ul, header, nav ul, ul li {
         width:90%;
         margin:auto;
         display:block;
     }
     
     body {
-        padding5px;
+        padding:5px;
     }
 
-    .pure-g, pure-menu-horizontal, pure-menu-item {
-        display;block;
+    .pure-g, .pure-menu, .pure-menu-horizontal, .pure-menu-list, .pure-menu-item, .pure-menu-link, .pure-menu .pure-menu-horizontal {
+        display:block;
+        width:90%;
     }
 
-    .pure-u1-5, .pure-u-1-2 {
-        width:90%
+    .pure-u-1-5, .pure-u-1-2 {
+        width:90%;
     }
 }
