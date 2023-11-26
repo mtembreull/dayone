@@ -1,0 +1,20 @@
+
+@media screen and (max-width:580) {
+    nav, main, article, main ul, header, nav ul {
+        width:90%;
+        margin:auto;
+        display:block;
+    }
+    
+    body {
+        padding5px;
+    }
+
+    .pure-g, pure-menu-horizontal, pure-menu-item {
+        display;block;
+    }
+
+    .pure-u1-5, .pure-u-1-2 {
+        width:90%
+    }
+}
