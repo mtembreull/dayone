@@ -1,0 +1,11 @@
+
+@media screen and (max-width:1080) {
+    nav, main, main ul, footer, article {
+        width:90%;
+        padding:10px;
+        margin:auto;
+        display:block;
+        background-color: darkorchid;
+        color:black
+    }
+}
