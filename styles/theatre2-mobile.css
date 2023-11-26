@@ -1,7 +1,7 @@
 
 @media screen and (max-width:580) {
     nav, main, main ul, footer, article {
-        width:100%;
+        width:90%;
         padding:10px;
         margin:auto;
         display:block;
