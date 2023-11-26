@@ -1,7 +1,7 @@
 nav ul {
     text-align: center;
     list-style: none;
-    background-color: #44a5b5;
+    background-color: #124e41;
     margin-bottom: 15px;
 }
 
@@ -14,10 +14,11 @@ nav a {
     display: block;
     width: 100px;
     text-decoration: none;
-    background-color: #44a5b5;
+    background-color: #124e41;
     color: white;
 }
 
 nav a:hover {
-    background-color: #344e5f;
+    background-color: rgb(163, 223, 123);
+    color:black;
 }
