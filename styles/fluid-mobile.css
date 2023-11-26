@@ -1,6 +1,6 @@
 
 @media screen and (max-width:580) {
-    nav, main, article, main ul, header, nav ul {
+    nav, main, article, main ul, header, nav ul, nav ul li, ul li {
         width:90%;
         margin:auto;
         display:block;
@@ -10,7 +10,7 @@
         padding:5px;
     }
 
-    .pure-g, .pure-menu-list, .pure-menu-item, .pure-menu-link, .pure-menu .pure-menu-horizontal, ul li {
+    .pure-g, .pure-menu-list, .pure-menu-item, .pure-menu-link, .pure-menu .pure-menu-horizontal, .pure-menu, .pure-menu-horizontal {
         display:block;
         width:90%;
     }
