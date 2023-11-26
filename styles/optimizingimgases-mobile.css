@@ -1,0 +1,13 @@
+
+@media screen and (max-width:580) {
+    nav, main, main ul, footer, article, nav ul, .leroy, .loki {
+        width:90%;
+        padding:10px;
+        margin:auto;
+        display:block;
+    }
+    
+    body {
+        padding:5px;
+    }
+}
