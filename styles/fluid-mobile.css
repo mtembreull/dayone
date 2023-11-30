@@ -3,16 +3,16 @@
     nav, main, article, main ul, header, nav ul, nav ul li, ul li {
         width:90%;
         margin:auto;
-        display:inline-block;
+        display:block;
     }
     
     body {
         padding:5px;
     }
 
-    .pure-g, .pure-menu-list, .pure-menu-item, .pure-menu-link, .pure-menu .pure-menu-horizontal, .pure-menu, .pure-menu-horizontal {
-        display:inline-block;
+    .pure-g, .pure-menu-list, .pure-menu-item, .pure-menu-link, .pure-menu, .pure-menu-horizontal {
         width:90%;
+        display:inline-block;
     }
 
     .pure-u-1-5, .pure-u-1-2 {
