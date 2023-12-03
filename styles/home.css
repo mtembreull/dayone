@@ -1,15 +1,15 @@
-nav ul {
+nav2 ul {
     text-align: center;
     list-style: none;
     background-color: #124e41;
     margin-bottom: 15px;
 }
 
-nav li {
+nav2 li {
     display: inline-block;
 }
 
-nav a {
+nav2 a {
     padding: 20px;
     display: block;
     width: 100px;
@@ -18,7 +18,7 @@ nav a {
     color: white;
 }
 
-nav a:hover {
+nav2 a:hover {
     background-color: rgb(163, 223, 123);
     color:black;
 }
