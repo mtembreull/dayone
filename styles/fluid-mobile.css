@@ -3,7 +3,7 @@
     nav, main, footer, article, main ul, header, nav ul, {
         width:90%;
         margin:auto;
-        display:block;
+        display:block
     }
     
     body {
@@ -11,13 +11,12 @@
     }
 
     .pure-g, .pure-menu-item, .pure-menu-horizontal .pure-menu-item {
-        width:90%;
+        width:100%;
         display:block;
     }
 
     .pure-u-1-5, .pure-u-1-2 {
-        width:90%;
+        width:100%;
         display:block;
     }
-}
 }
