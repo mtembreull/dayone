@@ -10,7 +10,35 @@
 body {
     display: flex;
     flex-flow: column nowrap;
-    max-width: 1080px;
+    max-width: 840px;
+    background-color: #d0c2dc;
+}
+
+header, footer {
+    background-image: url("../images/final-desktop-header-01.jpg");
+    width: 840px;
+    height: 300px;
+}
+
+header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.5em;
+    margin: 30px;
+    color: #f1d165;
+}
+
+header h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    margin: 30px;
+    color: #c1a332;
+}
+
+footer p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+    margin: 30px;
+    color: #c1a332;
 }
 
 .major-section {
@@ -25,10 +53,14 @@ body {
 .image-aside-quote {
     font-family: 'Luckiest Guy', cursive;
     width: 150px;
+    text-align: center;
+    color: #645357;
 }
 
 .image-aside-source {
     font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: #645357;
 }
 
 .image-aside > img {
