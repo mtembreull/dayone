@@ -1,5 +1,12 @@
 
+.font1 {
+    font-family: 'Indie Flower', cursive;
+}
 
-font-family: 'Indie Flower', cursive;
+.font2 {
+    font-family: 'Luckiest Guy', cursive;
+}
 
-font-family: 'Luckiest Guy', cursive;
+body {
+    flex-flow: column nowrap;
+}
