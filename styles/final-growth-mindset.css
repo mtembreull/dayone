@@ -8,5 +8,37 @@
 }
 
 body {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 1080px;
+}
+
+.major-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.image-aside {
+    flex: 0 0 auto;
+}
+
+.image-aside-quote {
+    font-family: 'Luckiest Guy', cursive;
+    width: 150px;
+}
+
+.image-aside-source {
+    font-family: 'Indie Flower', cursive;
+}
+
+.image-aside > img {
+    height: auto;
+    width: 150px;
+}
+
+.card-container {
+    display: flex;
+    flex: 0 0 auto;
     flex-flow: column nowrap;
 }
+
