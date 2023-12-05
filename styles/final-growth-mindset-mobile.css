@@ -3,8 +3,36 @@
     .major-section {
         flex-flow: column nowrap;
     }
+
+    .major-section {
+        align-items: center;
+    }
     
     .image-aside > img {
         display: none;
     }
+    
+    .card-cell-text {
+       width: 685px;
+    }
+
+}
+
+@media screen and (max-width:580px) {
+    .major-section {
+        flex-flow: column nowrap;
+    }
+    
+    .image-aside > img {
+        display: none;
+    }
+    
+    .card-cell-text {
+       width: 685px;
+    }
+
+    .major-section {
+        align-items: center;
+    }
+ 
 }
