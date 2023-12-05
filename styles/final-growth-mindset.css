@@ -1,4 +1,3 @@
-
 .font1 {
     font-family: 'Indie Flower', cursive;
 }
@@ -22,20 +21,20 @@ body {
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
-    width: 840px;
+    width: 1080px;
 }
 
 header, footer {
     background-image: url("../images/final-desktop-header-01.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 840px;
-    height: 300px;
+    width: 1080px;
+    height: 280px;
 }
 
 header h1 {
     font-family: 'Luckiest Guy', cursive;
-    font-size: 3.5em;
+    font-size: 5em;
     margin: 0px;
     margin-top: 25px;
     margin-left: 25px;
@@ -44,7 +43,7 @@ header h1 {
 
 header h2 {
     font-family: 'Indie Flower', cursive;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0px;
     margin-left: 25px;
     margin-top: -10px;
@@ -53,14 +52,15 @@ header h2 {
 
 footer p {
     font-family: 'Indie Flower', cursive;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 30px;
     color: #c1a332;
 }
 
 .major-section {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    gap: 5px;
 }
 
 .image-aside {
@@ -71,54 +71,79 @@ footer p {
 }
 
 .image-aside-quote {
-    font-family: 'Luckiest Guy', cursive;
-    width: 150px;
-    text-align: center;
     color: #645357;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.3em;
+    text-align: center;
+    width: 320px;
 }
 
 .image-aside-source {
     font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+    margin-top: -40px;
     text-align: center;
     color: #645357;
 }
 
 .image-aside > img {
     height: auto;
-    width: 150px;
+    width: 320px;
 }
 
 .card-container {
     display: flex;
     flex: 1 0 auto;
     flex-flow: column nowrap;
+    gap: 14px;
 }
 
 .card {
+    display: flex;
     flex: 1 0 auto;
-    width: 100%;
+    flex-flow: row nowrap;
 }
 
-.card-row {
+.card-left {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.card-right {
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: column nowrap;
 }
 
 .card-cell-blank {
     background-color: #d0c2dc;
+    flex: 0 0 auto;
 }
 
 .card-cell-header {
+    background-color: #654a91;
+    color: #c1a332;
+    flex: 0 0 auto;
     font-family: 'Luckiest Guy', cursive;
     font-size: 2em;
-    color: #c1a332;
-    background-color: #654a91;
+    padding: 7px;
 }
 
 .card-cell-image {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
 }
 
 .card-cell-text {
+    background-color: #bda2a7;
+    color: #645357;
+    flex: 1 0 auto;
     font-family: 'Indie Flower', cursive;
     font-size: 1.5em;
-    color: #645357;
-    background-color: #bda2a7;
+    min-height: 284px;
+    padding: 7px;
+    width: 570px;
 }
