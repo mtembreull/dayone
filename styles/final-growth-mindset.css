@@ -7,11 +7,22 @@
     font-family: 'Luckiest Guy', cursive;
 }
 
+html {
+    width: 100%;
+}
+
 body {
+    background-color: black;
+    margin: 0;
+    width: 100%;
+}
+
+.body-container {
+    background-color: #d0c2dc;
     display: flex;
     flex-flow: column nowrap;
-    max-width: 840px;
-    background-color: #d0c2dc;
+    margin: 0 auto;
+    width: 840px;
 }
 
 header, footer {
@@ -25,14 +36,18 @@ header, footer {
 header h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 3.5em;
-    margin: 25px;
+    margin: 0px;
+    margin-top: 25px;
+    margin-left: 25px;
     color: #f1d165;
 }
 
 header h2 {
     font-family: 'Indie Flower', cursive;
     font-size: 2em;
-    margin: 25px;
+    margin: 0px;
+    margin-left: 25px;
+    margin-top: -10px;
     color: #c1a332;
 }
 
@@ -49,7 +64,10 @@ footer p {
 }
 
 .image-aside {
+    display: flex;
     flex: 0 0 auto;
+    flex-flow: column nowrap;
+    justify-content: space-between;
 }
 
 .image-aside-quote {
@@ -72,12 +90,35 @@ footer p {
 
 .card-container {
     display: flex;
-    flex: 0 0 auto;
+    flex: 1 0 auto;
     flex-flow: column nowrap;
 }
 
 .card {
-
-
+    flex: 1 0 auto;
+    width: 100%;
 }
 
+.card-row {
+}
+
+.card-cell-blank {
+    background-color: #d0c2dc;
+}
+
+.card-cell-header {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2em;
+    color: #c1a332;
+    background-color: #654a91;
+}
+
+.card-cell-image {
+}
+
+.card-cell-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+    color: #645357;
+    background-color: #bda2a7;
+}
